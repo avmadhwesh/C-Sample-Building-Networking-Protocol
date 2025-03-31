@@ -4,8 +4,8 @@ Reliable Networking Protocol Implementation
 This project simulates the transport layer of a network stack by implementing a custom Reliable Transport Protocol (RTP) using the Stop-and-Wait protocol. The system ensures reliable message delivery over an unreliable network by handling packet segmentation, checksum validation, acknowledgment (ACK/NACK) handling, and message reassembly. The client sends encrypted (ROT13) messages to a server, which decrypts and returns the message after successful transmission.
 
 🛠️ What I worked on
-`rtp.c`
-`rtp.h`
+`src/rtp.c` & 
+`src/rtp.h`
 
 - Implemented the packetization process to divide large messages into fixed-size packets, marking the last packet appropriately.
 
